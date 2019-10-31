@@ -18,6 +18,7 @@ Support library to provide event prioritization and uploading for the GoogleData
   }
 
   s.ios.deployment_target = '11.0'
+  s.platform = :ios, '11.0'
 
   # To develop or run the tests, >= 1.8.0.beta.1 must be installed.
   s.cocoapods_version = '>= 1.4.0'

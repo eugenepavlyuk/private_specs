@@ -18,7 +18,7 @@ other Google CocoaPods. They're not intended for direct public usage.
   }
 
   s.ios.deployment_target = '11.0'
-
+  s.platform = :ios, '11.0'
   s.cocoapods_version = '>= 1.4.0'
   s.prefix_header_file = false
 

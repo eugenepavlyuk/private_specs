@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://firebase.google.com'
   s.license          = { :type => 'Apache', :file => 'LICENSE' }
   s.authors          = 'Google, Inc.'
+  s.platform = :ios, '11.0'
 
   # NOTE that these should not be used externally, this is for Firebase pods to depend on each
   # other.

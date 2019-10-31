@@ -22,6 +22,7 @@ Shared library for iOS SDK data transport needs.
 
   s.static_framework = true
   s.prefix_header_file = false
+  s.platform = :ios, '11.0'
 
   s.source_files = 'GoogleDataTransport/GDTCORLibrary/**/*'
   s.public_header_files = 'GoogleDataTransport/GDTCORLibrary/Public/*.h'

@@ -23,6 +23,7 @@ non-Cocoapod integration. This library also respects the Firebase global data co
   s.cocoapods_version = '>= 1.4.0'
   s.static_framework = true
   s.prefix_header_file = false
+  s.platform = :ios, '11.0'
 
   header_search_paths = {
     'HEADER_SEARCH_PATHS' => '"${PODS_TARGET_SRCROOT}/Firebase/CoreDiagnostics/"'
