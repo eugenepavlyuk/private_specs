@@ -25,7 +25,7 @@ It is especially suitable for use in\nmicrocontrollers, but fits any memory rest
   s.pod_target_xcconfig = {
     'GCC_PREPROCESSOR_DEFINITIONS' =>
       '$(inherited) PB_FIELD_32BIT=1 PB_NO_PACKED_STRUCTS=1 PB_ENABLE_MALLOC=1',
-      'VALID_ARCHS' => 'arm64 arm64e armv7 armv7s'
+      'VALID_ARCHS' => 'arm64'
   }
 
   s.source_files = '*.{h,c}'

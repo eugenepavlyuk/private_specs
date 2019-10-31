@@ -35,7 +35,7 @@ Shared library for iOS SDK data transport needs.
     'GCC_C_LANGUAGE_STANDARD' => 'c99',
     'GCC_TREAT_WARNINGS_AS_ERRORS' => 'YES',
     'CLANG_UNDEFINED_BEHAVIOR_SANITIZER_NULLABILITY' => 'YES',
-    'VALID_ARCHS' => 'arm64 arm64e armv7 armv7s'
+    'VALID_ARCHS' => 'arm64'
   }.merge(header_search_paths)
 
   common_test_sources = ['GoogleDataTransport/GDTCORTests/Common/**/*.{h,m}']

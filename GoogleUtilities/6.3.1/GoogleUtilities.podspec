@@ -23,7 +23,7 @@ other Google CocoaPods. They're not intended for direct public usage.
   s.prefix_header_file = false
 
   s.pod_target_xcconfig = {
-      'VALID_ARCHS' => 'arm64 arm64e armv7 armv7s'
+      'VALID_ARCHS' => 'arm64'
   }
 
   s.subspec 'Environment' do |es|

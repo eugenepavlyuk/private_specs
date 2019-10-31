@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   }
 
   s.pod_target_xcconfig = {
-      'VALID_ARCHS' => 'arm64 arm64e armv7 armv7s'
+      'VALID_ARCHS' => 'arm64'
   }
 
   s.social_media_url = 'https://twitter.com/Firebase'
