@@ -22,6 +22,10 @@ other Google CocoaPods. They're not intended for direct public usage.
   s.cocoapods_version = '>= 1.4.0'
   s.prefix_header_file = false
 
+  s.pod_target_xcconfig = {
+      'VALID_ARCHS' => 'arm64 arm64e armv7 armv7s'
+  }
+
   s.subspec 'Environment' do |es|
     es.source_files = 'GoogleUtilities/Environment/third_party/*.[mh]'
     es.public_header_files = 'GoogleUtilities/Environment/third_party/*.h'

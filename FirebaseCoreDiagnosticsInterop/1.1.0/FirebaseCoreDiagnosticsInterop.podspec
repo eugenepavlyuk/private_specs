@@ -20,6 +20,11 @@ Pod::Spec.new do |s|
     :git => 'https://github.com/firebase/firebase-ios-sdk.git',
     :tag => 'CoreDiagnosticsInterop-' + s.version.to_s
   }
+
+  s.pod_target_xcconfig = {
+      'VALID_ARCHS' => 'arm64 arm64e armv7 armv7s'
+  }
+
   s.social_media_url = 'https://twitter.com/Firebase'
   s.ios.deployment_target = '11.0'
   s.source_files = 'Interop/CoreDiagnostics/**/*.h'
