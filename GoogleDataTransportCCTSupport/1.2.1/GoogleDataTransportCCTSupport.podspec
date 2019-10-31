@@ -46,7 +46,8 @@ Support library to provide event prioritization and uploading for the GoogleData
       # (or larger) fields, so we'd have to set at least PB_FIELD_16BIT
       # anyways.)
       'PB_FIELD_32BIT=1 PB_NO_PACKED_STRUCTS=1 PB_ENABLE_MALLOC=1',
-      'VALID_ARCHS' => 'arm64'
+      'VALID_ARCHS' => 'arm64',
+      'ARCHS' => 'arm64'
   }.merge(header_search_paths)
 
   # Test app specs
